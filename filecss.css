@@ -1,0 +1,46 @@
+body{
+    background-color: lightgrey;
+}
+#quote{
+    display: inline;
+    font-family: Sofia, serif;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+#noteSharp{
+    padding: 5%;
+    margin-top: 5%;
+}
+#note{
+    margin-top: 5%;
+    padding: 1%;
+    text-align: center;
+    display: flexbox;
+    flex-direction: row;
+}
+button{
+    border-radius: 5px;
+    width: 40px;
+    height: 60px;
+    font-size: medium;
+}
+.notes{
+    background-color: cornsilk;
+}
+.sharp{
+    background-color: darkslategray;
+    color: floralwhite;
+}
+button:active{
+    font-size: small;
+    width: 30px;
+    height: 50px;
+}
+@media only screen and (max-width: 600px) {
+    #quote{
+        font-size: large;
+    }
+    button{
+        width: 20px;
+    }
+}
